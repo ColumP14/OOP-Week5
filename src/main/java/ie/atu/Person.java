@@ -34,10 +34,14 @@ public class Person {
 
     //Method to display info
     public void displayInfo(){
-        System.out.println("Name: " + firstName);
-        System.out.println("Last Name: " + lastName);
-        System.out.println("Age: " + age);
+        System.out.println("----Details----");
+        System.out.println("Name: " + getFirstName());
+        System.out.println("Last Name: " + getLastName());
+        System.out.println("Age: " + getAge());
+        System.out.println("---------------");
     }
+
+    //Getter & Setter method for user Input fields
     public String getFirstName() {
         return firstName;
     }

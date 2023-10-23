@@ -4,7 +4,13 @@ package ie.atu;
 // then press Enter. You can now see whitespace characters in your code.
 public class Main {
     public static void main(String[] args) {
-        Person student1 = new Person("Colum","Peters", 20);
-        System.out.println("Details are " + student1.getFirstName() + " " + student1.getLastName() + ", " + "age " + student1.getAge());
+        //Create new person object
+        Person user = new Person();
+
+        //Get user input
+        user.getUserInput();
+
+        //Display user input from displayInfo method
+        user.displayInfo();
     }
 }
