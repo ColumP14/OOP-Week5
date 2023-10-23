@@ -4,5 +4,6 @@ package ie.atu;
 // then press Enter. You can now see whitespace characters in your code.
 public class Main {
     public static void main(String[] args) {
+        Person student1 = new Person("Colum","Peters", 20);
     }
 }
